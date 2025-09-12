@@ -1,0 +1,19 @@
+.neon-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 0 0 5px #280844, 0 0 10px #280844, 0 0 20px #280844, 0 0 40px #280844, 0 0 80px #280844;
+    animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #2b0b47, 0 0 10px #2b0b47, 0 0 20px #2b0b47, 0 0 40px #2b0b47, 0 0 80px #2b0b47;
+    }
+    100% {
+        text-shadow: 0 0 10px #4c0990, 0 0 20px #4c0990, 0 0 40px #4c0990, 0 0 80px #4c0990, 0 0 160px #4c0990;
+    }
+}
